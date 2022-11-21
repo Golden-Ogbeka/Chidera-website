@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        h1 {
+            text-align: center;
+            background-color: yellow;
+            color: black;
+            padding: 3px;
+        }
+        body {
+              background-color: black;
+              color: yellow;  
+
+        }
+        button{
+            font-size: 17px;
+            background-color: red;
+            color: yellow;
+        }
+        nav{
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>contact</h1>
+    <img src="cc.jpeg">
+   <nav style="align-items: flex-start;">
+    <a href="cotact.html">contact</a>
+    <a href="about.html">about</a>
+    <a href="portfolio.html">portfolio</a>
+    <a href="index.html">index</a>
+    <a href="start.html">start</a>    
+</nav>
+<br>
+<form onsubmit="alert('THank you') ">
+    <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 40px">
+        <label for="fullName">Full name</label>
+        <input type="text" id="fullName" placeholder="Enter your full name" />
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 40px">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 40px">
+        <label for="phonenumber">Phone number</label>
+        <input type="tel" id="phonenumber" placeholder="Enter your phone number" />
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 40px">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Enter your message" rows="6"></textarea>
+    </div>
+    <button class="form-button" type="submit">submit</button>
+			</form>
+>
+<footer>
+    &COPY;2022 chi
+    <a href="https://linkedin.come/in/goldenogbeka" target="-blank">linkedin</a>
+</footer>
+</body>
+</html>

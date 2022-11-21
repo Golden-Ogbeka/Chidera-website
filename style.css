@@ -1,0 +1,43 @@
+.navigation {
+	background-color: #1e1e1e;
+	color: white;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	padding-top: 11px;
+	padding-bottom: 12px;
+	padding-left: 6.38vw;
+	padding-right: 6.38vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blog{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
